@@ -1,0 +1,21 @@
+
+why index.js in every folder 
+the reason is index.js will be responsible for module.exports
+it will manager exporting every file from that folder to the other that 
+will import it 
+
+
+
+routing 
+
+app.use('/api',apiroutes);
+not app .use will mount all you api requests to this apiroutes 
+which we can get from 
+const {apiroutes}=require('./routes');
+
+In Express.js, app.use() is a method used to mount middleware functions or routers to your application
+
+And app.use() tells Express:
+“Hey, for this path, run this function (middleware or router) before handling the actual request.”
+
+
