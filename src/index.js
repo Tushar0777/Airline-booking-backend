@@ -1,7 +1,7 @@
 const {Port} =require('./config');
 const express=require('express');
 
-const {apiroutes}=require('./routes');
+const apiroutes=require('./routes');
 
 const app=express();
 

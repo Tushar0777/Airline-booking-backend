@@ -6,6 +6,6 @@ router.get('/info',(req,res)=>{
     return res.json({msg:"ok"});
 })
 
-module.exports=routes;
+module.exports=router;
 
 
